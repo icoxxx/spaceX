@@ -15,8 +15,7 @@
 .mainTextPosition(){
     position: absolute;
     left: 10%;
-}
-
+} 
 .table1(){
     border-collapse: collapse;
     line-height: 40px;
@@ -75,6 +74,7 @@
         position: fixed;
         z-index: 99;
         background-color: @mainBackgroundColor;
+        top: 0;
     }
     #elements{
         width: 98%;
@@ -137,7 +137,7 @@
     }
     #element8{
         text-decoration: none;
-        margin: @elementMargin;
+        margin: 0px 0px 0px 20%;
         &:hover{
             text-decoration: underline;
         }
@@ -271,6 +271,7 @@
 
 #mainBackground5{
     .mainBackgroundPosition();
+    background-image: url(images/Merlin.webp);
     top: 440%;
     height: @mainHeight;
     width: @mainWidth;
@@ -282,7 +283,7 @@
     top: 15%;
 }
 
-#merlinTexxt2{
+#merlinText2{
     .mainTextPosition();
     top: 18%;
     font-weight: bold;
@@ -292,7 +293,7 @@
 #merlinText3{
     .mainTextPosition();
     display: inline-block;
-    top: 38%;
+    top: 30%;
     font-weight: bold;
     border-bottom: 1px solid white;
     &:hover{
